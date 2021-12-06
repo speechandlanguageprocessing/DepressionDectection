@@ -19,7 +19,7 @@ Classification model training code and regression model training code are provid
 Preprocessing code of audio recordings in AVID dataset is offered in **AudioPreprocess.ipynb**. You should change the paths to your AVID dataset path before runing. Regression model training code is provided in **cnn_audio_reg_avid.py**. The input required by the training code is preprocessed audio clips, which is saved in **avid_info.pkl**. Therefore, **prefix** varaible should be set to the path where **avid_info.pkl** stored during the preprocessing step.
 
 ### Ref
-The code is the implementation of the paper [Towards Automatic Depression Detection: A BiLSTM/1D CNN-Based Model]'https://www.mdpi.com/2076-3417/10/23/8701'.
+The code is the implementation of the paper [Towards Automatic Depression Detection: A BiLSTM/1D CNN-Based Model](https://www.mdpi.com/2076-3417/10/23/8701).
 If you find the paper or the code is useful, please cite the paper below.
 
 ```
